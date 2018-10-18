@@ -1,0 +1,26 @@
+{
+  "name": "vue-lang-code-flags",
+  "version": "1.0.0",
+  "description": "Vue component which shows the flag of the country from which the language comes from",
+  "main": "LangFlag.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qWici/vue-lang-code-flags.git"
+  },
+  "keywords": [
+    "vue",
+    "flags"
+  ],
+  "author": "Vania Kucher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qWici/vue-lang-code-flags/issues"
+  },
+  "homepage": "https://github.com/qWici/vue-lang-code-flags#readme",
+  "dependencies": {
+    "flag-icon-css": "^3.2.0"
+  }
+}
