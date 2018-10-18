@@ -3,6 +3,7 @@
 </template>
 <script>
   import 'flag-icon-css/css/flag-icon.css'
+  import relation from './relation'
 
   export default {
     name: 'LangFlag',
@@ -13,7 +14,10 @@
     },
     computed: {
       flagIconClass: function () {
-        return ((!!this.squared) ? 'flag-icon-squared ' : '') + 'flag-icon-' + this.iso.toLowerCase();
+        return ((!!this.squared) ? 'flag-icon-squared ' : '') + 'flag-icon-' + this.flagCode;
+      },
+      flagCode: () => {
+        return relation[this.iso.toLowerCase()];
       }
     }
   }
