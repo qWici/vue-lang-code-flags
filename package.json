@@ -1,6 +1,6 @@
 {
   "name": "vue-lang-code-flags",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue component which shows the flag of the country from which the language comes from",
   "main": "LangFlag.vue",
   "scripts": {
