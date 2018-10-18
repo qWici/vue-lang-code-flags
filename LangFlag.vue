@@ -2,23 +2,27 @@
     <span v-if="iso" class="flag-icon" :class="flagIconClass" :title="title || iso"></span>
 </template>
 <script>
-  import 'flag-icon-css/css/flag-icon.css'
-  import relation from './relation'
+  import "flag-icon-css/css/flag-icon.css";
+  import relation from "./relation";
 
   export default {
-    name: 'LangFlag',
+    name: "LangFlag",
     props: {
-      iso: {type: String, default: null},
+      iso: {type: String, default: null, required: true},
       title: {type: String, default: null},
-      squared: {type: Boolean, default: true},
+      squared: {type: Boolean, default: true}
     },
     computed: {
       flagIconClass: function () {
-        return ((!!this.squared) ? 'flag-icon-squared ' : '') + 'flag-icon-' + this.flagCode;
+        return (
+          (!!this.squared ? "flag-icon-squared " : "") +
+          "flag-icon-" +
+          this.flagCode
+        );
       },
-      flagCode: () => {
+      flagCode: function () {
         return relation[this.iso.toLowerCase()];
       }
     }
-  }
+  };
 </script>
