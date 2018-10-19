@@ -3,7 +3,7 @@ Vue component which shows the flag of the country from which the language comes 
 
 <p align="center">
   <img src="https://img.shields.io/badge/vue%202.x-compatible-green.svg" alt="Vue.js 2 compatible">
-  <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/npm-1.0.2-blue.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/npm-1.0.3-blue.svg" alt="Version"></a>
   <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
 </p>
 
@@ -71,6 +71,33 @@ Optional properties
 
 Here follows the list of the currently available flags.
 They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard.
+
+| Language | Code
+|:--|:--|
+| English | en |
+| Chinese | zh |
+| Hindi | hi |
+| Spanish | es |
+| Arabic | ar |
+| French | fr |
+| Malay | ms |
+| Russian | ru |
+| Bengali | bn |
+| Portuguese | pt |
+| German | de |
+| Japanese | ja |
+| Persian | fa |
+| Swahili | sw |
+| Javanese | jv |
+| Telugu | te |
+| Turkish | tr |
+| Korean | ko |
+| Marathi | mr |
+| Tamil | ta |
+| Vietnamese | vi |
+| Italian | it |
+| Hausa | ha |
+| Thai | th |
 
 ## Contributing
 
