@@ -3,7 +3,7 @@ Vue component which shows the flag of the country from which the language comes 
 
 <p align="center">
   <img src="https://img.shields.io/badge/vue%202.x-compatible-green.svg" alt="Vue.js 2 compatible">
-  <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/npm-1.0.3-blue.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/npm-1.0.4-blue.svg" alt="Version"></a>
   <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
 </p>
 
@@ -47,9 +47,9 @@ new Vue({
 Then, after the proper mounting, in your template you can call it like this:
 
 ```html
-    <lang-flag iso='en'/>
-    <lang-flag iso='ja' squared="false"/>
-    <lang-flag iso='zh' title="Some title"/>
+<lang-flag iso='en'/>
+<lang-flag iso='ja' squared="false"/>
+<lang-flag iso='zh' title="Some title"/>
 ```
 
 ### API
@@ -58,7 +58,7 @@ Mandatory properties
 
 | Property | Description | Type | Value
 |:--|:--|:--|:--|
-| language | **ISO 639-1** identifier of the language | `String` | one of the values defined [here](#available-flags) |
+| iso | **ISO 639-1** identifier of the language | `String` | one of the values defined [here](#available-flags) |
 
 Optional properties
 
