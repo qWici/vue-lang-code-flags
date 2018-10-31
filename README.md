@@ -1,4 +1,4 @@
-# Flags for language codes
+# Flags by language codes
 Vue component which shows the flag of the country from which the language comes from
 
 <p align="center">
