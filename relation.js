@@ -1,4 +1,5 @@
 export default {
+  am: "am",
   ar: "sy",
   az: "az",
   bn: "bd",
@@ -14,7 +15,7 @@ export default {
   ha: "ng",
   hi: "in",
   hu: "hu",
-  hy: "hy",
+  hy: "am",
   it: "it",
   ja: "jp",
   jv: "id",
