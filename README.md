@@ -98,6 +98,18 @@ They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_
 | Italian | it |
 | Hausa | ha |
 | Thai | th |
+| Hungarian | hu |
+| Czech | cs |
+| Belarusian | be |
+| Khmer | km |
+| Polish | pl |
+| Romanian | ro |
+| Armenian | am |
+| Bulgarian | bg |
+| Estonian | et |
+| Latvian | lv |
+| Uzbek | uz |
+| Azerbaijani | az |
 
 ## Contributing
 
