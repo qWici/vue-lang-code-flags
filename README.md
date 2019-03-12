@@ -74,42 +74,42 @@ They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_
 
 | Language | Code
 |:--|:--|
-| English | en |
-| Chinese | zh |
-| Hindi | hi |
-| Spanish | es |
 | Arabic | ar |
-| French | fr |
-| Malay | ms |
-| Russian | ru |
-| Bengali | bn |
-| Portuguese | pt |
-| German | de |
-| Japanese | ja |
-| Persian | fa |
-| Swahili | sw |
-| Javanese | jv |
-| Telugu | te |
-| Turkish | tr |
-| Korean | ko |
-| Marathi | mr |
-| Tamil | ta |
-| Vietnamese | vi |
-| Italian | it |
-| Hausa | ha |
-| Thai | th |
-| Hungarian | hu |
-| Czech | cs |
-| Belarusian | be |
-| Khmer | km |
-| Polish | pl |
-| Romanian | ro |
 | Armenian | am |
-| Bulgarian | bg |
-| Estonian | et |
-| Latvian | lv |
-| Uzbek | uz |
 | Azerbaijani | az |
+| Belarusian | be |
+| Bengali | bn |
+| Bulgarian | bg |
+| Chinese | zh |
+| Czech | cs |
+| English | en |
+| Estonian | et |
+| French | fr |
+| German | de |
+| Hausa | ha |
+| Hindi | hi |
+| Hungarian | hu |
+| Italian | it |
+| Japanese | ja |
+| Javanese | jv |
+| Khmer | km |
+| Korean | ko |
+| Latvian | lv |
+| Malay | ms |
+| Marathi | mr |
+| Persian | fa |
+| Polish | pl |
+| Portuguese | pt |
+| Romanian | ro |
+| Russian | ru |
+| Spanish | es |
+| Swahili | sw |
+| Tamil | ta |
+| Telugu | te |
+| Thai | th |
+| Turkish | tr |
+| Uzbek | uz |
+| Vietnamese | vi |
 
 ## Contributing
 
