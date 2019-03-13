@@ -12,9 +12,9 @@ Vue component which shows the flag of the country from which the language comes 
 Get the package from NPM:
 
 ```bash
-npm install vue-lang-code-flags
+npm install vue-lang-code-flags --save
 or
-yarn add vue-lang-code-flags
+yarn add vue-lang-code-flags --save
 ```
 
 ## How to use
