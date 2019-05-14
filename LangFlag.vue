@@ -1,4 +1,4 @@
-<template>12
+<template>
     <span v-if="iso" class="flag-icon" :class="flagIconClass" :title="title || iso"></span>
 </template>
 <script>
