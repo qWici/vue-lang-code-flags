@@ -1,5 +1,5 @@
 {
-  "name": "@qwici/vue-lang-code-flags",
+  "name": "vue-lang-code-flags",
   "version": "1.0.7",
   "description": "Vue component which shows the flag of the country from which the language comes from",
   "main": "LangFlag.vue",
