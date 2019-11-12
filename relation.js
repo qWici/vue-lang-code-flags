@@ -20,7 +20,7 @@ export default {
   ja: "jp",
   jv: "id",
   km: "km",
-  ko: "kp",
+  ko: "kr",
   lv: "lv",
   mr: "in",
   ms: "my",
