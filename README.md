@@ -3,7 +3,7 @@ Vue component which shows the flag of the country from which the language comes 
 
 <p align="center">
   <img src="https://img.shields.io/badge/vue%202.x-compatible-green.svg" alt="Vue.js 2 compatible">
-  <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/npm-1.0.7-blue.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/npm-1.0.8-blue.svg" alt="Version"></a>
   <a href="https://www.npmjs.com/package/vue-lang-code-flags"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
 </p>
 
