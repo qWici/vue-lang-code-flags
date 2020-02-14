@@ -113,4 +113,4 @@ They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_
 
 ## Contributing
 
-Please follow the guidelines [here](https://github.com/P3trur0/vue-country-flag/blob/master/CONTRIBUTING.md).
+Please follow the guidelines [here](https://github.com/qWici/vue-lang-code-flags/blob/master/CONTRIBUTING.md).
