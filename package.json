@@ -22,8 +22,5 @@
   "homepage": "https://github.com/qwici/vue-lang-code-flags#readme",
   "dependencies": {
     "flag-icon-css": "^3.2.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@qWici"
   }
 }
