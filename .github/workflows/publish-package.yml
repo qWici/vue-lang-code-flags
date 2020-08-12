@@ -12,22 +12,36 @@ jobs:
       # Checkout the repo
       - uses: actions/checkout@master
 
-      # Publish to npm registry
-      - uses: actions/setup-node@v1
+      # Update package version and set up git
+      - uses: actions/setup-node@master
+      - name: Update package version and setup git
+        run: |
+          git config user.name "Vania Kucher"
+          git config user.email dev.kucher@gmail.com
+          npm version 1.0.$(date +%s)
+
+      # Publish to NPMJS
+      - uses: actions/setup-node@master
         with:
           node-version: 12
-          registry-url: https://registry.npmjs.org/
-          scope: 'qwici'
-      - run: npm publish
+          registry-url: 'https://registry.npmjs.org/'
+      - name: Publish to NPMJS
+        run: |
+          npm config set //registry.npmjs.org/:_authToken $NPM_AUTH_TOKEN
+          npm config set scope "qwici"
+          npm config list
+          npm publish --access public
         env:
+          CI: true
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
-      # Publish to GitHub package registry
-      - uses: actions/setup-node@v1
+      # Publish to GitHub Package Registry
+      - uses: actions/setup-node@master
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: 'qwici'
-      - run: npm publish
+      - name: Publish to GitHub Package Registry
+        run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GHPKG_TOKEN}}
+          NODE_AUTH_TOKEN: ${{github.GHPKG_TOKEN}}
