@@ -47,7 +47,7 @@ Then, after the proper mounting, in your template you can call it like this:
 
 ```html
 <lang-flag iso="en" />
-<lang-flag iso="ja" squared="false" />
+<lang-flag iso="ja" :squared="false" />
 <lang-flag iso="zh" title="Some title" />
 ```
 
