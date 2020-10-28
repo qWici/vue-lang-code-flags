@@ -7,6 +7,7 @@ export default {
   ca: 'es-ca',
   cs: 'cz',
   de: 'de',
+  el: 'gr',
   en: 'gb',
   es: 'es',
   et: 'et',
