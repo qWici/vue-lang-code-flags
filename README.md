@@ -86,6 +86,7 @@ They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_
 | Estonian    | et   |
 | French      | fr   |
 | German      | de   |
+| Greek       | el   |
 | Hausa       | ha   |
 | Hindi       | hi   |
 | Hungarian   | hu   |
