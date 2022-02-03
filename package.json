@@ -15,7 +15,7 @@
     "flags"
   ],
   "author": "Vania Kucher",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/qwici/vue-lang-code-flags/issues"
   },
