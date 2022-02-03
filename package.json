@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/qwici/vue-lang-code-flags#readme",
   "dependencies": {
-    "flag-icon-css": "^3.2.0"
+    "flag-icon-css": "^4.0.0"
   }
 }
