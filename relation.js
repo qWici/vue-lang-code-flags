@@ -3,7 +3,7 @@ export default {
   ar: 'sy',
   az: 'az',
   bn: 'bd',
-  be: 'be',
+  be: 'by',
   ca: 'es-ca',
   cs: 'cz',
   de: 'de',
