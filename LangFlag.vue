@@ -1,8 +1,8 @@
 <template>
-    <span v-if="iso" class="flag-icon" :class="flagIconClass" :title="title || iso"></span>
+    <span v-if="iso" class="fi" :class="flagIconClass" :title="title || iso"></span>
 </template>
 <script>
-import "flag-icon-css/css/flag-icon.css";
+import "flag-icons/css/flag-icons.css";
 import relation from "./relation";
 
 export default {
@@ -17,8 +17,8 @@ export default {
     computed: {
       flagIconClass: function () {
         return (
-          (!!this.squared ? "flag-icon-squared " : "") +
-          "flag-icon-" +
+          (!!this.squared ? "fis " : "") +
+          "fi-" +
           this.flagCode
         );
       },
