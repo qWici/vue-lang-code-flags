@@ -19,6 +19,7 @@ export default {
   hu: 'hu',
   hy: 'am',
   it: 'it',
+  id: 'id',
   ja: 'jp',
   jv: 'id',
   km: 'kh',
