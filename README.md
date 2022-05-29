@@ -82,6 +82,7 @@ They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_
 | Chinese     | zh   |
 | Catalan     | ca   |
 | Czech       | cs   |
+| Dutch       | nl   |
 | English     | en   |
 | Estonian    | et   |
 | French      | fr   |
@@ -90,6 +91,7 @@ They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_
 | Hausa       | ha   |
 | Hindi       | hi   |
 | Hungarian   | hu   |
+| Indonesian  | id   |
 | Italian     | it   |
 | Japanese    | ja   |
 | Javanese    | jv   |
