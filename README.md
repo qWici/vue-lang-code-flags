@@ -98,6 +98,7 @@ They are identified using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_
 | Latvian     | lv   |
 | Malay       | ms   |
 | Marathi     | mr   |
+| Dutch       | nl   |
 | Persian     | fa   |
 | Polish      | pl   |
 | Portuguese  | pt   |
