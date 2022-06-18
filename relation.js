@@ -27,6 +27,7 @@ export default {
   lv: 'lv',
   mr: 'in',
   ms: 'my',
+  nl: 'nl',
   pl: 'pl',
   pt: 'pt',
   ro: 'ro',
